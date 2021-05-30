@@ -1,0 +1,33 @@
+body {
+  background: orange;
+}
+
+.container {
+  padding: 15px;
+  margin: 15px;
+border-style: solid;
+}
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+  grid-gap: 10px 10px;/*row column*/
+}
+.grid-items {
+  border-style: solid;
+}
+
+#grid-item-01 {
+grid-column-start: 1;
+grid-column-end: 3;
+
+}
+
+#grid-item-02 {
+grid-row-start: 2;
+grid-row-end: 4;
+}
+
+#inline-grid-container {
+  display: inline-grid;
+}
