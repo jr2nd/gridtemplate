@@ -30,4 +30,18 @@ grid-row-end: 4;
 
 #inline-grid-container {
   display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px 10px;
+}
+
+#inline-grid-item-01
+{
+  grid-column-start: 1;
+grid-column-end: 3;
+}
+
+#inline-grid-item-02 {
+  grid-row-start: 2;
+grid-row-end: 4;
+
 }
