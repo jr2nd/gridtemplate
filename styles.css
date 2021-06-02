@@ -3,7 +3,7 @@
   --containerBGColor: green;
   --gridBGColor: lightblue;
   --inlineGridBGColor: yellow;
-  --grid-temsBGColor: red;
+  --griditemsBGColor: red;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   grid-gap: 10px 10px; /*row column*/
 }
 .grid-items {
-  background-color: var(--grid-temsBGColor);
+  background-color: var(--griditemsBGColor);
   border-style: solid;
 }
 
