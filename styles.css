@@ -1,9 +1,9 @@
 :root {
-  --bodyBGColor: orange;
-  --containerBGColor: green;
-  --gridBGColor: lightblue;
-  --inlineGridBGColor: yellow;
-  --griditemsBGColor: red;
+  --bodyBGColor: hsl(0, 40%, 60%);
+  --containerBGColor: hsl(50, 40%, 60%);
+  --gridBGColor: hsl(100, 40%, 60%);
+  --inlineGridBGColor: hsl(150, 40%, 60%);
+  --griditemsBGColor: hsl(200, 40%, 60%);
 }
 
 body {
