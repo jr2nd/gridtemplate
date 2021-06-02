@@ -4,10 +4,12 @@
   --gridBGColor: hsl(100, 40%, 60%);
   --inlineGridBGColor: hsl(150, 40%, 60%);
   --griditemsBGColor: hsl(200, 40%, 60%);
+  --fontsize: 16px;
 }
 
 body {
   background: var(--bodyBGColor);
+  font-size: var(--fontsize);
 }
 
 .container {
@@ -25,6 +27,7 @@ body {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-gap: 10px 10px; /*row column*/
+  font-size: var(--fontsize);
 }
 .grid-items {
   background-color: var(--griditemsBGColor);
